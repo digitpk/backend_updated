@@ -3,7 +3,13 @@
 ## Installation
 
 ```
-composer install
+**composer install**
+**php artisan key:generate**
+**php artisan migrate**
+**php artisan db:seed**
+**php artisan vendor:publish**
+<< It will ask options then give **0** for publish all Vendors >>
+**php artisan passport:install**
 ```
 
 - Go to `[Your_Folder]/public/` you find `plugins.zip` file, extract it in same folder.
